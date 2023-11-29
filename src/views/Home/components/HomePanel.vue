@@ -13,7 +13,7 @@ defineProps({
 
 <template>
   <div class="home-panel">
-    <dic class="container">
+    <div class="container">
       <div class="head">
         <!-- 主标题和副标题 -->
         <h3>
@@ -22,7 +22,7 @@ defineProps({
       </div>
       <!-- 主题内容区域-->
       <slot />
-    </dic>
+    </div>
   </div>
 </template>
 
