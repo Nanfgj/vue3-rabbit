@@ -1,13 +1,11 @@
 <script setup>
-import {getCategoryAPI} from "@/apis/layout";
-import {onMounted,ref} from "vue";
-
+import {onMounted} from "vue";
 import {useCategoryStore} from "@/stores/category";
 const categoryStore = useCategoryStore()
 
-onMounted(()=>{
-  categoryStore.getCategory()
-})
+// onMounted(()=>{
+//   categoryStore.getCategory()
+// })
 
 </script>
 
